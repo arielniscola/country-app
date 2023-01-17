@@ -1,0 +1,31 @@
+.country-detail {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.element{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    justify-content: space-between;
+}
+
+.subelement{
+    display: flex;
+    flex-direction: column;
+}
+
+.subelement h4, p{
+    margin-left: 25px;
+}
+
+
+.back-btn{
+    background-color: rgba(245, 253, 166, 0.61);
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    margin-top: 50%;
+}

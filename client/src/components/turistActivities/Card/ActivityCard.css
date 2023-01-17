@@ -1,0 +1,23 @@
+.card-activity{
+    width: auto;
+    background-color: rgba(29, 0, 63, 0.568);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    padding: 10px;
+}
+
+.item-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item-card h5, p{
+    margin-right: 10px;
+}
+.seasons{
+    margin-left: -10px;
+}

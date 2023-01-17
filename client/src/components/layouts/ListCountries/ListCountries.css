@@ -1,0 +1,90 @@
+.container {
+    width: 100%;
+    max-width: 1600px;
+    height: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.title{
+    width: 100%; 
+}
+
+.filterbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+    border-bottom: 2px solid #003e4f;
+}
+.filterbar p{
+    font-weight: bold;
+}
+
+.filterbar select{
+	display: flex;
+    justify-content: center;
+	width: 100% !important; 
+	cursor: pointer;
+  	padding: 7px 10px;
+  	height: 42px;
+  	outline: 0; 
+  	border: 0;
+	border-radius: 0;
+	background: #f0f0f0;
+	color: #7b7b7b;
+	font-size: 1em;
+	color: rgb(10, 10, 10);
+	font-family: 
+	'Quicksand', sans-serif;
+	border:2px solid #003e4f;
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+    box-shadow: 0 0 10px #719ECE;
+}
+ 
+.filterbar select:hover{
+	background: #ffffff;
+    box-shadow: 0 0 10px #719ECE;
+}
+ 
+.filterbar:hover i{
+	margin-top: 3px;
+}
+.pagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination button {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    color: black;
+    background-color: rgba(0, 152, 20, 0.65);
+}
+.pagination p {
+    margin-left: 2%;
+    margin-right: 2%;
+    font-weight: bold;
+}
+
+.search input{
+    width: 220px;
+    height: 30px;
+    border-radius: 7px;
+    margin: 2px;
+    outline: 0; 
+  	border: 0;
+    border:2px solid #003e4f;
+}
+.search input:hover{
+    box-shadow: 0 0 10px #719ECE;
+
+}

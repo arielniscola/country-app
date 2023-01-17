@@ -1,0 +1,159 @@
+
+.form h2{
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgba(0, 71, 103, 0.73);
+    width: 600px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 1rem;
+    text-align: left;
+    padding-left: 2%;
+
+}
+.row input, textarea{
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.field{
+    border: solid 1px #ccc;
+    padding: 10px;
+
+    width: 380px;
+}
+
+
+.field:focus{
+    border-color: #52283d;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto
+}
+
+.buttons button{
+   width: 200px;
+   height: 40px;
+   margin: 10px;
+   margin-top: 20%;
+   font-size: 1rem;
+   color: rgb(83, 71, 71);
+   border-radius: 5px;
+}
+
+.btn-right button{
+    background-color: rgba(126, 166, 118, 1) ;
+    font-weight: 600;
+}
+.btn-right button:hover{
+    opacity: 0.8;
+}
+
+.btn-left button{
+    background-color: rgba(236, 249, 175, 1)  ;
+    font-weight: 600;
+}
+.btn-left button:hover{
+    opacity: 0.8;
+}
+.errorInput{
+    color: rgb(138, 0, 0);
+    font-size: x-small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+.options-plat{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding-left: 40px;
+    padding-right: 30px;
+    margin: 1%;
+}
+
+.options-plat img{
+    width: 5%;
+    height: 5%;
+    margin: 0%;
+    margin-top: 5px;
+}
+.options-plat img:hover{
+    margin-top: 3px;
+}
+.options-countries{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding-left: 40px;
+    padding-right: 30px;
+    margin: 1%;
+}
+.options-countries img{
+    width: 5%;
+    height: 5%;
+    margin: 0%;
+    margin-top: 5px;
+}
+.options-countries img:hover{
+    margin-top: 3px;
+}
+.content-select-form select{
+	display: flex;
+    justify-content: center;
+	width: 100%;
+	cursor: pointer;
+  	padding: 7px 10px;
+  	height: 42px;
+  	outline: 0; 
+  	border: 0;
+	border-radius: 0;
+	background: #f0f0f0;
+	color: #7b7b7b;
+	font-size: 1em;
+	color: rgb(10, 10, 10);
+	font-family: 
+	'Quicksand', sans-serif;
+	border:2px solid rgba(0,0,0,0.2);
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+}
+ 
+.content-select select:hover{
+	background: #ffffff;
+}
+ 
+.content-select:hover i{
+	margin-top: 3px;
+}
+.imagen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagen img{
+    width: 40%;
+}

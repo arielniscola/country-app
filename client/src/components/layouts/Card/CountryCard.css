@@ -1,0 +1,34 @@
+
+.card{
+    width: 330px;
+    height: 430px;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 15px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: rgba(0, 0, 0, 0.349)  ;
+    padding: 1px;
+    
+}
+.card li{
+    list-style: none;
+   
+}
+.card:hover{
+    outline: none !important;
+    border-color: #003e4f;
+    border: 1px solid;
+    box-shadow: 0 0 10px #505152;
+}
+
+.card img{
+    width: 320px;
+    height: 210px;
+    border-radius: 5%;
+}
+
+.card h2{
+    font-weight: 500;
+}
